@@ -16,3 +16,9 @@ git clone https://git.openstack.org/openstack/openstack-helm.git
 
 cd openstack-helm
 ./tools/deployment/developer/common/010-deploy-k8s.sh
+
+docker pull acelee/sentiment-analysis-frontend
+docker pull rinormaloku/sentiment-analysis-web-app
+docker pull rinormaloku/sentiment-analysis-frontend:green
+docker pull rinormaloku/sentiment-analysis
+
